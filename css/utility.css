@@ -1,0 +1,17 @@
+/* Decoration of the text */
+
+.logo-first-letter {
+  color: #2772f5;
+}
+
+.button-blue {
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #effafc;
+  background-color: #195cce;
+}
+
+.button-blue:hover {
+  background-color: #1d66e4;
+}
