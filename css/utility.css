@@ -41,6 +41,10 @@
 }
 
 /* Flex columns */
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+
 .flex-columns .row {
   display: flex;
   flex-direction: row;
@@ -54,7 +58,7 @@
   display: flex;
   /* Setting the length of the element */
   flex-basis: 100%;
-  /* Let all the flexible items be the same length, regardless of its conten  */
+  /* Let all the flexible items be the same length, regardless of its content  */
   flex: 1;
 }
 

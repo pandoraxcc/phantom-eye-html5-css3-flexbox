@@ -117,3 +117,51 @@ img {
 #about {
   padding: 50px;
 }
+#areas,
+#blog,
+#contact {
+  padding: 50px 0;
+}
+.areas img:hover {
+  opacity: 0.7;
+}
+
+.section-header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.section-header h4 {
+  font-weight: 200;
+}
+
+.section-header p {
+  padding-bottom: 50px;
+}
+
+/* Flex Grid Class */
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0px 4px;
+}
+
+.our-team-img {
+  max-width: 70%;
+  box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
