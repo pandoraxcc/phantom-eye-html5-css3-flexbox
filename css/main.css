@@ -165,3 +165,82 @@ img {
   max-width: 70%;
   box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+/* Contact section */
+
+.callback-form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.callback-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.callback-form .form-wrapper {
+  margin-bottom: 10px;
+}
+
+.callback-form input {
+  width: 50%;
+  padding: 5px 10px;
+  height: 50px;
+}
+
+.callback-form .button-blue {
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+}
+
+.callback-form input:focus {
+  outline-color: #1d66e4;
+}
+
+/* Footer section */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.social-container i {
+  padding: 10px 10px;
+  background-color: #1d66e4;
+  color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* Mobile adoptation */
+
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+    opacity: 1;
+    z-index: 20;
+  }
+
+  #navbar a {
+    padding: 10px;
+  }
+
+  .flex-items-about {
+    flex-direction: column;
+  }
+
+  .flex-columns .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .callback-form input {
+    width: 100%;
+  }
+}

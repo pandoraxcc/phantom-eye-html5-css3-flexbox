@@ -7,6 +7,11 @@
   background-color: #0f1b25;
   color: white;
 }
+
+.bg-super-dark {
+  background-color: #030507;
+  color: white;
+}
 .button-blue {
   cursor: pointer;
   display: inline-block;
